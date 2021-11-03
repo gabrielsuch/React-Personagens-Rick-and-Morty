@@ -9,7 +9,7 @@ const Characters = ({characterList}) => {
             <ul>
             {
                 characterList.map((character) => (
-                    <CharCard character={character}/>
+                    <CharCard key={character.id} character={character}/>
                 ))
             }
             </ul>

@@ -4,22 +4,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-.characters{
-    margin: 15px 15px;
-    width: 200px;
-    background-color: rgb(89, 89, 134);
-}
-.characters li{
+li{
     text-align: center;
 }
-.characters li img{
+li img{
     width: 180px;
-}
-.characters ul{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 .alive{
     background-color: green;
@@ -29,4 +18,8 @@
 }
 .unknown{
     background-color: gray;
+}
+.alive, .dead, .unknown{
+    margin: 15px 15px;
+    width: 200px;
 }
