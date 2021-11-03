@@ -3,7 +3,7 @@ import "./style.css"
 const CharCard = ({character}) => {
 
     return (
-        <div className="characters" className={
+        <div className={
             character.status === "Alive" ?
             "alive" :
             character.status === "Dead" ?
