@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.characters{
+    margin: 15px 15px;
+    width: 200px;
+    background-color: rgb(89, 89, 134);
+}
+.characters li{
+    text-align: center;
+}
+.characters li img{
+    width: 180px;
+}
+.characters ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.alive{
+    background-color: green;
+}
+.dead{
+    background-color: red;
+}
+.unknown{
+    background-color: gray;
+}
